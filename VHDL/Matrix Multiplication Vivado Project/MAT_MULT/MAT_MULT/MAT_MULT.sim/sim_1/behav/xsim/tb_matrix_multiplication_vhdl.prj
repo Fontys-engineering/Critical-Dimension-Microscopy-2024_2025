@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MAT_MULT.srcs/sources_1/new/functions.vhd" \
+"../../../../MAT_MULT.srcs/sources_1/new/matrix_pkg.vhd" \
+"../../../../MAT_MULT.srcs/sources_1/new/matrix_multiplication.vhd" \
+"../../../../MAT_MULT.srcs/sources_1/new/t2_2d_flop.vhd" \
+"../../../../MAT_MULT.srcs/sources_1/new/matrix_mult_tb.vhd" \
+
+# Do not sort compile order
+nosort
